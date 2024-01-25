@@ -9,7 +9,7 @@ public class ReverseWord{
         System.out.println("Reversed sentence: " + reversedSentence);
     }
 
-    private static String reverseWords(String sentence) {
+    public static String reverseWords(String sentence) {
 
         String[] words = sentence.split(" ");
 
