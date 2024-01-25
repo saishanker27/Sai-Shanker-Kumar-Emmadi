@@ -1,3 +1,5 @@
+package constructorstaticfinal;
+
 class Staticclass{
     static int statvalue=70;
    public static int staticMethod(){
@@ -39,7 +41,7 @@ class Child extends Parent{
     }
 }
 
-public class Main {
+public class Imp {
     public static void main(String args[]) {
         System.out.println("Static Value:" + Staticclass.staticMethod());
 
