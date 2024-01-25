@@ -8,7 +8,7 @@ public class CheckRotation {
         boolean isRotation = isRotation(str1, str2);
         System.out.println(isRotation);
     }
-    private static boolean isRotation(String str1, String str2) {
+    public static boolean isRotation(String str1, String str2) {
 
         if (str1.length() != str2.length() || str1.length() == 0) {
             return false;
