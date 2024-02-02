@@ -10,10 +10,4 @@ public class ReverseList {
             Collections.reverse(arrlist);}
         return arrlist;
     }
-    public static void main(String args[]){
-        ReverseList rl = new ReverseList();
-        ArrayList<String> arr = new ArrayList<>();
-        arr.add(null);
-        System.out.println(rl.reverseList(arr));
-    }
 }
